@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document for CL site*/
+
+html{
+	height: 100%;
+	background-color: #EDEDED;
+}
+
+.main {
+	border: 2px dotted red;
+	background-color: #EDEDED;
+	padding-left: 15%;
+	padding-right: 15%;
+	height: 100%;
+}
+
+.cl {
+	margin: 5px;
+	font-family: 'Anton', sans-serif;
+	font-weight: 100;
+	font-size: 7em;
+	letter-spacing: 0.01em;
+	color: #36413E;
+	text-align: center;
+}
+
+.navigation {
+	font-family: 'Heebo', sans-serif;
+	color: #95989A;
+	letter-spacing: -0.05em;
+	list-style-type: none;
+	position: relative;
+	font-size: 2em;
+	text-align: center;
+	
+ }
+
+.caption {
+	font-family: 'Heebo', sans-serif;
+	letter-spacing: -0.03em;
+	line-height: -1em;
+	font-size: 1.07em;
+	text-align: center;
+	color: #95989A;
+	margin: auto;
+	width: 70%;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+a {
+	color: #95989A;
+	padding: 2%;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #36413E;
+}
+
+li{
+	display: inline;
+}
+
