@@ -1,70 +1,104 @@
-@charset "UTF-8";
-/* CSS Document for CL site*/
+/* Common Elements ------------ */
 
-html{
-	height: 100%;
-	background-color: #EDEDED;
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  letter-spacing: -0.5px;  
+  list-style-type: none;
+  position: relative;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  min-height: 100vh;
 }
 
-.main {
-	background-color: #EDEDED;
-	padding-left: 15%;
-	padding-right: 15%;
-	height: 100%;
+.main-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.cl {
-	margin: 5px;
-	font-family: 'Anton', sans-serif;
-	font-weight: 100;
-	font-size: 7em;
-	letter-spacing: 0.01em;
-	color: #36413E;
-	text-align: center;
+@media (max-width: 991px) {
+
+  body, .main-side {
+    min-height: unset;
+  }
+
+  body {
+    padding: 35px 0;
+  }
 }
 
-.navigation {
-	font-family: 'Heebo', sans-serif;
-	color: #95989A;
-	letter-spacing: -0.05em;
-	list-style-type: none;
-	position: relative;
-	font-size: 2em;
-	text-align: center;
-	
- }
+/* Typography ------------ */
 
-.caption {
-	font-family: 'Heebo', sans-serif;
-	letter-spacing: -0.03em;
-	line-height: -1em;
-	font-size: 1.07em;
-	text-align: center;
-	color: #95989A;
-	margin: auto;
-	width: 70%;
+h1 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 150px;
+  letter-spacing: -8px;
+  line-height: 130px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #EDBF19;
 }
 
-img{
-	display: block;
-	margin: 0 auto;
-	padding-bottom: 40px;
+/* Title side ------------ */
+
+.headshot {
+  max-width: 250px;
+  border-radius: 50%;
+  margin: 30px 0;
 }
 
-a {
-	color: #95989A;
-	padding: 2%;
+.description-side {
+  text-align: center;
 }
 
-a:link {
-	text-decoration: none;
+p.introduction {
+  width: 75%;
+  margin: 0 auto;
 }
 
-a:hover {
-	color: #36413E;
+/* Menu ------------ */
+
+ul.menu {
+  list-style: none;
+  text-align: right;
+  font-size: 40px;
 }
 
-li{
-	display: inline;
+ul.menu li a {
+  color: #222;
+  line-height: 92px;
+  border-bottom: 5px solid #EDBF19;
 }
 
+ul.menu li a:hover, ul.menu li a:focus {
+  text-decoration: none;
+  border-bottom-color: #222;
+}
+
+@media (max-width: 991px) {
+  .menu-desktop{
+    display:none;
+  } 
+
+  ul.menu {
+    font-size: 30px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  ul.menu li {
+    display: inline-block;
+  }
+
+  ul.menu li+li {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-mobile {
+    display: none;
+  }
+}
