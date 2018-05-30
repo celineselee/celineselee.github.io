@@ -102,3 +102,16 @@ ul.menu li a:hover, ul.menu li a:focus {
     display: none;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-mobile { 
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 405px) {
+  h1 {
+    font-size: 130px;
+  }
+}
