@@ -1,0 +1,62 @@
+/* Homepage specific CSS */
+
+
+/* Layout between sections ----- */
+.main-content {
+  padding-top: 25px;
+}
+
+#work {
+  padding-top: 80px;
+}
+
+/* Title side ------------ */
+
+.headshot {
+  max-width: 250px;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+p.introduction {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.introduction {
+  margin-top: 25px;
+}
+
+.landing h4 {
+  font-size: 45px;
+  margin: 25px 0;
+  margin-top: 55px;
+}
+
+/* my work section  ------------ */
+
+.projects {
+  margin-top: 55px;
+}
+
+.project.row {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 991px) {
+  .project.row {
+    margin-bottom: 50px;
+  }
+}
+
+.project-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.project-image img {
+  max-width: 100%;
+}
+

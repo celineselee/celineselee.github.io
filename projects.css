@@ -1,0 +1,30 @@
+h4 {
+    text-transform: lowercase;
+}
+
+.writeup-part h4 {
+    font-weight: 600;
+}
+
+h5 {
+    color: #0C226B;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.writeup-part {
+    padding-top: 20px;
+    margin-bottom: 55px;
+}
+
+.writeup-part:first-of-type {
+    padding-top: 0;
+}
+
+img.main-projectimage {
+    max-width: 100%;
+}
+
+.tools {
+    margin-top: 25px;
+}

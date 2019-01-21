@@ -1,0 +1,281 @@
+/* Common Elements ------------ */
+
+html {
+  background-color: #EDBF19;
+}
+
+body {
+  font-family: 'Work sans', sans-serif;
+  color: #222;
+  list-style-type: none;
+  position: relative;
+  font-size: 16px;
+  background-color: #F5F3EE;
+  min-height: 100vh;
+}
+
+.main-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+@media (max-width: 991px) {
+
+  body, .main-side {
+    min-height: unset;
+  }
+
+  body {
+    padding-top: 55px;
+  }
+
+}
+
+/* Typography ------------ */
+
+h1 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 120px;
+  letter-spacing: -8px;
+  line-height: 130px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #EDBF19;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 72px;
+    letter-spacing: -5px;
+  }
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 36px;
+  letter-spacing: -0.05em;
+  color: #0C226B;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: -0.05em;
+}
+
+h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 19px;
+    letter-spacing: -0.05em;  
+    margin-top: 30px;
+}
+
+h5.project-label {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+p, ul {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.project-info p {
+  font-size: 16px;
+}
+
+.project-info p.project-date {
+  color: rgba(0, 0, 0, 0.6);  
+  margin-bottom: 15px;
+}
+
+a.nav-link {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+}
+
+/* Nav ------------------- */
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:rgba(255, 255, 255, 0.75);
+}
+
+.navbar-nav {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.menu-logo a img {
+  height: 37px;
+}
+
+@media (max-width: 991px) {
+
+  .navbar {
+    padding-bottom: 20px;
+  }
+  .navbar-nav {
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar button {
+    margin-right: 15px;
+  }  
+}
+
+@media (min-width: 992px) {
+
+  .navbar-light .navbar-nav .nav-link {
+    border-bottom: 3px solid rgba(245, 245, 245, 0);
+    padding: 0;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 3px solid #EDBF19;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-left: 30px;
+  }
+}
+
+/* @media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px;
+  }
+} */
+
+/* Contact ---------------- */
+
+#contact {
+    padding: 95px;
+    padding-top: 60px;
+    background-color: #EDBF19;
+}
+  
+@media (max-width: 575px) {
+#contact {
+    padding: 45px
+}
+}
+  
+.online-link {
+margin-bottom: 15px;
+}
+
+.online-link img {
+height: 28px;
+margin-right: 10px;
+vertical-align: bottom;
+}
+
+.online-link a {
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+color: #333;
+}
+
+@media (min-width: 768px) {
+
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .links-col {
+        margin-right: 35px;
+    }
+}
+  
+
+
+/* back button -------------- */
+nav.back {
+    display: inline-block;
+}
+
+nav.back a.nav-link {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+nav.back a.nav-link img:hover {
+    fill: #EDBF19;
+}
+
+/* project pages ---------- */
+.project-content {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+p.project-desc {
+    max-width: 730px;
+}
+
+.project-info {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+@media (min-width: 992px) {
+    .project-info .process {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 20px;  
+    }
+    
+}
+
+.project-info ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.project-info li:before {
+    content: "-";
+    margin-right: 8px;
+}
+
+.project-writeup p {
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.project-writeup p br {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
