@@ -2,6 +2,10 @@ h4 {
     text-transform: lowercase;
 }
 
+.process h4 {
+    font-size: 20px;
+}
+
 .writeup-part h4 {
     font-weight: 600;
 }
@@ -25,6 +29,14 @@ img.main-projectimage {
     max-width: 100%;
 }
 
-.tools {
-    margin-top: 25px;
+.end-back {
+    margin-top: 55px;
+}
+
+.process div {
+    margin-top: 35px;
+}
+
+.process div:first-of-type {
+    margin-top: 0;
 }
