@@ -1,0 +1,59 @@
+h4 {
+    text-transform: lowercase;
+}
+
+.process h4 {
+    font-size: 20px;
+}
+
+.writeup-part h4 {
+    font-weight: 600;
+}
+
+h5 {
+    color: #0C226B;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.project-title h2 {
+    margin-bottom: 10px;
+}
+
+.project-title {
+    margin-bottom: 15px;
+}
+
+.writeup-part {
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.writeup-part:first-of-type {
+    padding-top: 0;
+}
+
+img.main-projectimage {
+    max-width: 100%;
+}
+
+.end-back {
+    margin-top: 55px;
+}
+
+.process div {
+    margin-top: 35px;
+}
+
+.process div:first-of-type {
+    margin-top: 0;
+}
+
+.project-writeup img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.writeup-part p:last-of-type {
+    margin-bottom: 0;
+}

@@ -54,102 +54,121 @@
 
     <!-- CSS -->
     <link href="common.css" rel="stylesheet" type="text/css">
-    <link href="home.css" rel="stylesheet" type="text/css">
-    
+    <link href="projects.css" rel="stylesheet" type="text/css">
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Work+Sans" rel="stylesheet">
 
   </head>
   <body>
+    <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-          <div class="menu-logo">
-            <a href="#main"><img src="assets/logo.svg"</a>
-          </div>
-          <div class="menu-main ml-auto">
-              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#work">work</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Resume - Celine Lee.pdf" target="_blank">resume</a>
-                  </li>
-                </ul>
-              </div>
-  
-          </div>
-    
-        </div>
+      <nav class="back">
+        <a class="nav-link" href="index.html">
+            <img src="assets/chevron-left.svg">
+            back to home
+        </a>
       </nav>
-        
 
-    <div id="main" class="container">
-      <div class="row main-content">
-        <div class="landing main-side description-side col-lg-7">
-            <div class="content">
-              <h4>Hey there!</h4>
-              <div class="introduction">
-                <p>My name is Celine, and I'm a designer + developer studying computer science and specializing in computational fine arts at the University of Waterloo.</p>
-                <p>I’m passionate about the “human side” of tech, and I'm always looking for new ways to incorporate both tech and the arts into my work.</p>
-                <p>I’m currently in search for an exciting internship for summer 2019!</p>
-              </div>
+      <div class="project-content row">
+        <div class="col-lg-10 offset-lg-1">
+          <h2>StarterHacks</h2>
+          <p class="project-desc">
+              StarterHacks is Canada’s biggest beginner-focused hackathon. Founded in 2017, I had the opportunity to attend the first ever StarterHacks as a hacker. In 2018, I joined the organizing team as a tech/design liaison, and continued my journey with StarterHacks this year. 
+          </p>
+
+          <p class="project-desc">
+            I had the opportunity to work with some really talented people, including <a href="https://gracemmaa.com/">Grace Ma</a>, <a href="https://yifeiren.me/">Yifei Ren</a>, <a href="https://www.linkedin.com/in/bettywap/">Betty Lam</a> and <a href="https://www.linkedin.com/in/halina-brookson/">Halina Brookson</a>
+          </p>
+
+          <img class="main-projectimage" src="projects/starterhacks/main-pic.png">
+
+          <div class="row project-info">
+            <div class="col-lg-3">
+              <div class=process>
+
+                <div class="process-menu">
+                    <h4>projects</h4>
+                    <ul>
+                      <li>
+                        <a href="#part1">StarterHacks main site</a>
+                      </li>
+                      <li>
+                          <a href="#part2">Hacker application portal</a>
+                      </li>
+                    </ul>    
+                </div>
+
+                <div class="role">
+                  <h4>My role</h4>
+                  <ul>
+                    <li>Dev/design liaison</li>
+                    <li>Designer</li>
+                  </ul>
+                </div>
+
+                <div class="tools">
+                    <h4>tools</h4>
+                    <ul>
+                      <li>Figma</li>
+                      <li>Illustrator</li>
+                      <li>React</li>
+                    </ul>
+                </div>
+
             </div>
-        </div>
-      </div>
 
-      <div id="work" class="row">
-        <div class="col-lg-12">
-            <h2>my work</h2>
-            <p>Here are a few projects that I’ve been working on!</p>
-            <p>This site is still a work in progress – you can find even more on my <a href="https://www.behance.net/celineselee">Behance</a> and <a href="https://github.com/celineselee">Github</a>.</p>
-        </div>
-
-        <div class="projects">
-          <div class="col-lg-10 offset-lg-1">
-
-            <div class="row project">
-              <div class="col-md-7 project-info">
-                <a href="planify.html">
-                    <h5 class="project-label">UX case study</h5>
-                    <h4>Planify</h4>
-                    <p>I researched, designed and user-tested an agenda/planner app inspired by my own need for a solid online planning system.</p>
-                    <p class="project-date">Sep - Dec 2018</p>        
-                </a>
-              </div>
-              <div class="col-md-5 project-image">
-                <img src="projects/planify/planify project photo.png">
-              </div>
             </div>
 
-            <div class="row project">
-                <div class="col-md-7 project-info">
-                  <a href="starterhacks.html">
-                      <h5 class="project-label">UX & Visual design</h5>
-                      <h4>StarterHacks organizing team</h4>
-                      <p>
-                        I helped brand StarterHacks 2019 event and participated in several design projects including the main website design, application portal and mentor dashboard.
-                      </p>
-                      <p class="project-date">May 2018 - Jan 2019</p>        
+            <div class="project-writeup col-lg-9">
+
+              <div id="part1" class="writeup-part">
+                  <h4>StarterHacks main site</h4>
+
+                  <h5>My role</h5>
+                  <p>
+                      As the tech and design liaison, I was the first point of contact between the design and dev team. I performed design reviews, answered any design-related questions from developers, and assisted with styling the site. As a designer, I also contributed in designing the website, starting from wireframes to high-fidelity mockups.
+                  </p>
+                  <p>
+                      Following this project, I also helped kicked off the establishment of StarterHacks’ dev and design project guidelines to help make the handoff from designers to developers more seamless. Based on the tools used by the dev team, I created guides on Figma to help designers design according to guidelines.
+                  </p>
+              </div>
+
+              <div id="part2" class="writeup-part">
+                <h4>Hacker application portal</h4>
+
+                <p>
+                  This was the form that hackers filled out to apply to hack at StarterHacks. The main theme was a “code/build your own website” theme, inspired by the vector graphics on our main site.
+                </p>
+
+                <p>
+                    For this project, my main responsibility was the “console side”, where hackers would enter in their details. This project taught me a lot about form design, especially how to make long forms feel less tedious for users. 
+                </p>
+
+              </div>
+                  
+            </div>
+
+            <div class="container">
+
+                <nav class="end-back back">
+                  <a class="nav-link" href="index.html">
+                      <img src="assets/chevron-left.svg">
+                      back to home
                   </a>
-                </div>
-                <div class="col-md-5 project-image">
-                  <img src="projects/starterhacks/starterhacks project photo.png">
-                </div>
-            </div>
-  
+                </nav>
+            </div>      
 
+
+            <!-- <div class="col-lg-6">
+              <h4>members</h4>
+            </div> -->
           </div>
+
         </div>
       </div>
     </div>
+
 
     <div id="contact">
         <div class="container">
@@ -187,14 +206,13 @@
           </div>
         </div>
     </div>
-
-
-    <!-- Optional JavaScript -->
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
   </body>
 </html>
