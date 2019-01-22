@@ -16,9 +16,17 @@ h5 {
     font-weight: 600;
 }
 
+.project-title h2 {
+    margin-bottom: 10px;
+}
+
+.project-title {
+    margin-bottom: 15px;
+}
+
 .writeup-part {
     padding-top: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 
 .writeup-part:first-of-type {
@@ -39,4 +47,13 @@ img.main-projectimage {
 
 .process div:first-of-type {
     margin-top: 0;
+}
+
+.project-writeup img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.writeup-part p:last-of-type {
+    margin-bottom: 0;
 }
