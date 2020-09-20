@@ -57,3 +57,18 @@ img.main-projectimage {
 .writeup-part p:last-of-type {
     margin-bottom: 0;
 }
+
+.callout { 
+    padding: 24px;
+    background-color: #F5F3EE;
+    border-left: 3px solid #EDBF19;
+    border-radius: 3px;
+}
+
+.row.requirements {
+    margin-bottom: 16px;
+}
+
+.project-desc-summary {
+    margin-top: 24px;
+}
