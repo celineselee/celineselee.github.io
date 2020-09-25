@@ -1,9 +1,53 @@
 /* Homepage specific CSS */
 
+.container {
+  max-width: 730px;
+}
 
 /* Layout between sections ----- */
 .main-content {
   padding-top: 25px;
+}
+
+.landing.main-side h4, h5 {
+  color: #4757A7;
+  font-weight: 500;
+  margin: 0;
+}
+
+.landing.main-side h4 {
+  font-size: 50px;
+}
+
+.landing.main-side .landing-content {
+  margin-top: 96px;
+}
+
+.landing.main-side h5.looking {
+  color: unset;
+  font-weight: normal;
+}
+
+.prev-exp {
+  margin: 32px 0;
+}
+.prev-exp p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.prev-exp a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #83A1CA;
+}
+
+.prev-exp a:hover {
+  color: #627C9E;
+}
+
+.prev-exp em {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 #work {
@@ -35,17 +79,69 @@ p.introduction {
 
 /* my work section  ------------ */
 
+#work a {
+  text-decoration: none;
+  color: #333;
+}
+
 .projects {
   margin-top: 15px;
 }
 
 .project.row {
-  margin-bottom: 35px;
+  position: relative;
+  top: 0;
+  transition: top ease-in-out 0.1s;
+  margin-bottom: 24px;
+  background-color: #F9F5EF;
+  border-radius: 24px;
+  height: 220px;
+}
+
+.project.row:hover {
+  /* top: -2px;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.05)); */
+  background-color: #FCF8F2;
+}
+
+.project.row .col-md-7 {
+  padding-left: 0;
+}
+
+.project .project-text {
+  padding: 24px;
+}
+
+.project .project-text .project-date {
+  margin: 0;
+  bottom: 0;
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 24px;
+  font-size: 14px;
 }
 
 .project.row a {
   text-decoration: none;
   color: #333;
+}
+
+.project img {
+  height: 100%;
+}
+
+.project .project-not-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 100%;
+  padding: 24px;
+  width: 40%;
+}
+
+.project .project-not-mobile img {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 991px) {
