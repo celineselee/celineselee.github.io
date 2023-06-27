@@ -148,6 +148,10 @@ p.introduction {
   .project.row {
     margin-bottom: 50px;
   }
+
+  .project.row img {
+    display: none;
+  }
 }
 
 .project-image {
